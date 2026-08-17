@@ -1,0 +1,64 @@
+:root {
+  --ink: #15283f;
+  --muted: #617288;
+  --cream: #f1f6fb;
+  --paper: #fbfdff;
+  --line: #dbe5ef;
+  --lime: #b9d9ff;
+  --blue: #a9c8f7;
+}
+
+.brand-dot,
+h1 em,
+h2 em,
+blockquote em {
+  color: #3d73b5;
+}
+
+.eyebrow-line,
+.text-link span,
+.service-tabs button.active > span:first-child,
+.process-icon,
+.faq-item button b {
+  color: #4d83c4;
+  background-color: #4d83c4;
+}
+
+.service-icon {
+  background: #193c68;
+  color: #b9d9ff;
+}
+
+.service-panel {
+  background: #e8f1fb;
+}
+
+.contact p {
+  color: #48627e;
+}
+
+.contact-note {
+  color: #547da9;
+}
+
+.contact-glow,
+.contact-glow:after {
+  border-color: #8fb9e8;
+}
+
+.contact-glow {
+  z-index: 0;
+  pointer-events: none;
+}
+
+.contact > :not(.contact-glow) {
+  position: relative;
+  z-index: 1;
+}
+
+.text-link span,
+.service-tabs button.active > span:first-child,
+.process-icon,
+.faq-item button b {
+  background-color: transparent;
+}
